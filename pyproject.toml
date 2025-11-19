@@ -1,0 +1,18 @@
+[project]
+name = "hw2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab>=4.4.10",
+    "notebook>=7.4.7",
+    "pandas>=2.3.3",
+    "psycopg2>=2.9.11",
+    "psycopg2-binary>=2.9.9",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.5",
+]
